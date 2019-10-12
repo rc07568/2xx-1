@@ -1,0 +1,183 @@
+<!doctype html>
+
+<!-- this is begining of the html the browser will process-->
+<html>
+
+<!-- information used by the brower-->
+
+<head>
+    <meta charset="utf-8">
+    <!-- 
+        displayed anywhere the title is used
+        for the browser search engine, etc.
+    -->
+    <title>inside out - Bob Carver - movies</title>
+
+    <!--
+        used to display information about the 
+        page by search engines and other sites
+        looking at out page
+    -->
+    <meta name="description" content="inside out is a class project we use to learn html." />
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+
+</head>
+
+
+<!-- content displayed in the browser window -->
+
+<body>
+
+    <header>
+        <h1><a href="index.html">Inside Out - movies</a></h1>
+        <h2>continously falling forward in to the light...</h2>
+        <nav>
+            <ul>
+                <li><a href="love.html">love</a>
+                    <ul>
+                        <li><a href="things.html">things</a>
+                            <ul>
+                                <li><a href="music.html">music</a></li>
+                                <li><a href="movies.html">movies</a></li>
+                                <li><a href="books.html">books</a></li>
+                                <li><a href="websites.html">websites</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="peoples.html">peoples</a>
+                            <ul>
+                                <li><a href="family.html">family</a></li>
+                                <li><a href="friends.html">friends</a></li>
+                                <li><a href="others.html">others</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="who.html">who</a>
+                    <ul>
+                        <li><a href="i.html">i</a>
+
+                            <ul>
+                                <li><a href="was_then.html">was then</a></li>
+                                <li><a href="am_now.html">am now</a></li>
+                                <li><a href="will_be.html">will be</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="challenges.html">challenges</a>
+                    <ul>
+                        <li><a href="behind_me.html">behind me</a></li>
+                        <li><a href="ahead_of_me.html">ahead of me</a></li>
+                    </ul>
+                </li>
+                <li><a href="you.html">you</a>
+                    <ul>
+                        <li><a href="profile.html">profile</a></li>
+                        <li><a href="settings.html">settings</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div id="mainScreen">
+           <iframe id="movieFrame" src="https://www.youtube.com/embed/bo_efYhYU2A" frameborder="0" allowfullscreen>
+         
+            Your browers currently does not support iframes. Please contact the website administrator if you you believe this is happening in error.</iframe>
+        </div>
+
+    </section>
+
+    <section>
+
+        <div id="cardsWrapper">
+
+            <div class="card" onClick="changeVideo('6hB3S9bIaco')">
+                <div class="cardImage" style="background-image: url(assets/images/Shawshank.jpg);"></div>
+                <div class="cardInfo">
+                    <h4>Shawshank Redemtion</h4>
+                    <div class="cardInfoText">
+                        <p>Andy Dufresne (Tim Robbins) is sentenced to two consecutive life terms in prison for the murders of his wife and her lover and is sentenced to a tough prison. However, only Andy knows he didn't commit the crimes. While there, he forms a friendship with Red (Morgan Freeman), experiences brutality of prison life, adapts, helps the warden, etc., all in 19 years.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card" onClick="changeVideo('1wlYPlwjGOY')">
+                <div class="cardImage" style="background-image: url(assets/images/Bandofbrothers.jpg);"></div>
+                <div class="cardInfo">
+                    <h4>Band of Brothers</h4>
+                    <div class="cardInfoText">
+                        <p>Band of Brothers tells the story of Easy Company, 506th Regiment of the 101st Airborne Division, U.S. Army. Based on interviews with survivors of Easy Company, as well as soldiers' journals and letters. Based on the book written by Stephen Ambrose.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" onClick="changeVideo('ywkF1lj5wyI')">
+                <div class="cardImage" style="background-image: url(assets/images/Astarisborn.jpg);"></div>
+                <div class="cardInfo">
+                    <h4>A Star is Born</h4>
+                    <div class="cardInfoText">
+                        <p>Seasoned musician Jackson Maine discovers -- and falls in love with -- struggling artist Ally. She has just about given up on her dream to make it big as a singer until Jackson coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jackson fights an ongoing battle with his own internal demons.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" onClick="changeVideo('6ZfuNTqbHE8')">
+                <div class="cardImage" style="background-image: url(assets/images/Avengers.jpg);"></div>
+                <div class="cardInfo">
+                    <h4>Marvel Studios' Avengers: Infinity War</h4>
+                    <div class="cardInfoText">
+                        <p>Iron Man, Thor, the Hulk and the rest of the Avengers unite to battle their most powerful enemy yet -- the evil Thanos. On a mission to collect all six Infinity Stones, Thanos plans to use the artifacts to inflict his twisted will on reality. The fate of the planet and existence itself has never been more uncertain as everything the Avengers have fought for has led up to this moment.</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" onClick="changeVideo('XTWYKf5hXIg')">
+                <div class="cardImage" style="background-image: url(assets/images/Tombstone.jpg);"></div>
+                <div class="cardInfo">
+                    <h4>Tombstone</h4>
+                    <div class="cardInfoText">
+                        <p>Wyatt Earp (Kurt Russell) and his brothers, have left their gunslinger ways behind them to settle down and start abbusiness in the town of Tombstone, Ariz. While they aren't looking to find trouble, trouble soon finds them when they become targets of the ruthless Cowboy gang. Now, together with Wyatt's best friend, Doc Holliday (Val Kilmer), the brothers pick up their guns once more to restore order to a lawless land.</p>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" onClick="changeVideo('do9zep1n8cU')">
+                <div class="cardImage" style="background-image: url(assets/images/Gladiator.jpg);"></div>
+                <div class="cardInfo">
+                    <h4>Gladiator</h4>
+                    <div class="cardInfoText">
+                        <p>Set in Roman times, the story of a once-powerful general forced to become a common gladiator. The emperor's son is enraged when he is passed over as heir in favour of his father's favourite general. He kills his father and arranges the murder of the general's family, and the general is sold into slavery to be trained as a gladiator - but his subsequent popularity in the arena threatens the throne.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div style="clear:both;"> </div>
+    </section>
+
+
+    <footer>
+        <h4>this is the footer</h4>
+        <p>we place redundent information here</p>
+        <div id="footerTagLine"> I am 7 inches left of normal</div>
+
+    </footer>
+  <script>
+          function changeVideo(vid){
+               document.getElementById('movieFrame').src = 'https://www.youtube.com/embed/'+vid;
+               document.getElementById('movieFrame').scrollIntoView({ 
+                    behavior: 'smooth' 
+               });
+          }
+     </script>
+    </body>
+
+</html>
