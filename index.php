@@ -24,7 +24,7 @@ $siteName = 'inside out | 2xx';
 	/*
 			displayed anywhere the title is used
 			for the browser search engine, etc.
-		*/
+	*/
 	?>
 <title><?php echo $siteName; ?></title>
 	<?php
@@ -32,7 +32,7 @@ $siteName = 'inside out | 2xx';
 			used to display information about the 
 			page by search engines and other sites
 			looking at out page
-		*/
+	*/
 	?>
 <meta name="description" content="inside out is a class project we use to learn html." />
 

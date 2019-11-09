@@ -7,6 +7,7 @@
 <file name="sololearn.jpg" server="inside-out-html.kingbob4ever.com" local="132153823798468150" remote="131863788000000000" Dst="2" />
 <file name="youtube.jpg" server="inside-out-html.kingbob4ever.com" local="132153823796070909" remote="131863788000000000" Dst="2" />
 <file name="testout.jpg" server="inside-out-html.kingbob4ever.com" local="132153823797977212" remote="131863788000000000" Dst="2" />
+<<<<<<< HEAD
 <file name="amazon.jpg" server="2xx-1.kingbob4ever.com" local="132153972600000000" remote="132153972600000000" Dst="2" />
 <file name="espn.jpg" server="2xx-1.kingbob4ever.com" local="132153972600000000" remote="132153972600000000" Dst="2" />
 <file name="facebook.jpg" server="2xx-1.kingbob4ever.com" local="132153972600000000" remote="132153972600000000" Dst="2" />
@@ -14,4 +15,13 @@
 <file name="sololearn.jpg" server="2xx-1.kingbob4ever.com" local="132153972600000000" remote="132153972600000000" Dst="2" />
 <file name="testout.jpg" server="2xx-1.kingbob4ever.com" local="132153972600000000" remote="132153972600000000" Dst="2" />
 <file name="youtube.jpg" server="2xx-1.kingbob4ever.com" local="132153972600000000" remote="132153972600000000" Dst="2" />
+=======
+<file name="amazon.jpg" server="2xx-1.kingbob4ever.com" local="132153823796548283" remote="132153972600000000" Dst="2" />
+<file name="espn.jpg" server="2xx-1.kingbob4ever.com" local="132153823797502300" remote="132153972600000000" Dst="2" />
+<file name="facebook.jpg" server="2xx-1.kingbob4ever.com" local="132153823539791099" remote="132153972600000000" Dst="2" />
+<file name="facebook.png" server="2xx-1.kingbob4ever.com" local="132153823795537725" remote="132153972600000000" Dst="2" />
+<file name="sololearn.jpg" server="2xx-1.kingbob4ever.com" local="132153823798468150" remote="132153972600000000" Dst="2" />
+<file name="testout.jpg" server="2xx-1.kingbob4ever.com" local="132153823797977212" remote="132153972600000000" Dst="2" />
+<file name="youtube.jpg" server="2xx-1.kingbob4ever.com" local="132153823796070909" remote="132153972600000000" Dst="2" />
+>>>>>>> 200-0
 </dwsync>
