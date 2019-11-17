@@ -9,11 +9,9 @@
 	//Pulls functions used through out the entier website
 	require_once 'functions.inc.php';
 
-	/*
-    The following will be passed along to JavaScript by establishing
-    variables in PHP and passing thme into the HTML via Global
-    JavaScript variables the same names uses for PHP
-	*/
+	if($_SERVER["SERVER_PORT"] == '80' && $_SERVER["HTTP_HOST"] !== 'localhost'){
+       header('Location: https://'.$_SERVER["HTTP_HOST"]);
+     }
 
 ?>
 
