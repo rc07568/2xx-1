@@ -1,4 +1,8 @@
 <?php
+	// Pulls data infromation and configuration used through out the applicaton
+	require_once 'config.inc.php';
+
+
 	//Pulls data elements used through out the entier website
 	require_once 'content.data.php';
 
@@ -10,8 +14,6 @@
     variables in PHP and passing thme into the HTML via Global
     JavaScript variables the same names uses for PHP
 	*/
-
-$siteName = 'inside out | 2xx';
 
 ?>
 
@@ -33,7 +35,7 @@ $siteName = 'inside out | 2xx';
 			for the browser search engine, etc.
 	*/
 	?>
-<title><?php echo $siteName; ?></title>
+<title><?php echo SITENAME; ?></title>
 	<?php
 	/*
 			used to display information about the 
@@ -45,7 +47,7 @@ $siteName = 'inside out | 2xx';
 
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<script>
-		var siteName ='<?php echo $siteName; ?>';
+		var siteName ='<?php echo SITENAME; ?>';
 	</script>
 	
 </head>
@@ -56,7 +58,7 @@ $siteName = 'inside out | 2xx';
 
 <body>
 	<header>
-	  <h1><a href="index.php"> <?php echo $siteName; ?></a></h1>
+	  <h1><a href="index.php"> <?php echo SITENAME; ?></a></h1>
 	  <h2>continously falling forward in to the light...</h2>
 	  <nav>
 		<?php echo menuBuilder($content ['pages']);?>`
