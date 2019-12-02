@@ -1,7 +1,7 @@
                   
-                    <!-- landing point from jump point in header - include/header.inc.php -->
+ <!-- landing point from jump point in header - include/header.inc.php -->
 
-                                   <!-- close the #content div | opened in include/header.inc.php -->
+  <!-- close the #content div | opened in include/header.inc.php -->
                                    </div>
 
                               <!-- close the #main div | opened in include/header.inc.php -->

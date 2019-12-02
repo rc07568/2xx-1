@@ -1,13 +1,10 @@
 <?php
 
 	require_once('include/header.inc.php');
-?>
-<section>
-  <p>this is where the content goes</p>
-</section>
-	
 
-<?php
+getPage($content['pages']);
+
+
 
 	require_once('include/footer.inc.php');
 ?>
